@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #4a5568, #1a202c, #000000);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Container Styles */
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 4rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #f6e05e; /* Yellow-400 */
+  }
+  
+  .nav-link:active {
+    color: #ecc94b; /* Yellow-500 */
+  }
+  
+  /* Circle Styles */
+  .circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: fixed;
+    top: -10px;
+    right: -10px;
+    pointer-events: none;
+    box-shadow: 0 0 10px #ffffff;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
